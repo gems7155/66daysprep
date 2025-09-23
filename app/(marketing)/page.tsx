@@ -527,7 +527,7 @@ const HighlightsSection = () => {
         title="Target Your Dream Firm"
       >
         <Text color="muted" fontSize="lg">
-          Whether you're aiming for bulge bracket banks or MBB consulting firms, 
+          Whether you&apos;re aiming for bulge bracket banks or MBB consulting firms, 
           we have specialized prep tracks for different career paths and firm types.
         </Text>
         <Wrap mt="8">
