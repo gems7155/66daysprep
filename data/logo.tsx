@@ -7,8 +7,8 @@ export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
     <chakra.div {...props}>
       <Flex align="center">
         <Image 
-          src="/static/images/chroniclelogo.png" 
-          alt="Chronicle Logo" 
+          src="/static/images/66dayspreplogo.png" 
+          alt="66 Days Prep Logo" 
           maxHeight="32px"
         />
         <Text 
@@ -17,7 +17,7 @@ export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
           fontWeight="bold" 
           color={textColor}
         >
-          Chronicle
+          66 Days Prep
         </Text>
       </Flex>
     </chakra.div>

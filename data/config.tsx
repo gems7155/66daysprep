@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Chronicle',
-    description: 'Chronicle is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
+    title: '66 Days Prep',
+    description: '66 Days Prep is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
   } as NextSeoProps,
   termsUrl: '/terms',
   privacyUrl: '/privacy',
@@ -50,7 +50,7 @@ const siteConfig = {
     copyright: (
       <>
         Developed by{' '}
-        <Link href="https://www.liberaceai.com">Liberace AI</Link> © 2025 • All Rights Reserved
+        <Link href="https://www.liberaceai.com">Uru Technologies LLC</Link> © 2025 • All Rights Reserved
       </>
     ),
     links: [

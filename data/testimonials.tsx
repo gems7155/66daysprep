@@ -1,5 +1,5 @@
 export default {
-  title: '#chronicleapp: why users love it',
+  title: '#66 Days Prepapp: why users love it',
   items: [
     {
       name: 'jordan.tech',
@@ -19,7 +19,7 @@ export default {
       ),
       children: (
         <>
-          No more digging through folders, I just ask Chronicle and it pulls up what I need.<br /><br />It lets me store all my important files and key moments in one place. Can't recommend it enough.
+          No more digging through folders, I just ask 66 Days Prep and it pulls up what I need.<br /><br />It lets me store all my important files and key moments in one place. Can't recommend it enough.
         </>
       ),
     },
@@ -63,7 +63,7 @@ export default {
       ),
       children: (
         <>
-          Chronicle remembers everything so I don’t have to. I don't have to organize anything again, I just dump it into one app.
+          66 Days Prep remembers everything so I don’t have to. I don't have to organize anything again, I just dump it into one app.
         </>
       ),
     },

@@ -11,11 +11,11 @@ export default function TermsPage() {
       <VStack spacing={6} align="stretch">
 
         <Text fontWeight="bold">
-          Welcome to Chronicle! Before you access our services, please read these Terms of Service.
+          Welcome to 66 Days Prep! Before you access our services, please read these Terms of Service.
         </Text>
 
         <Text>
-          Chronicle is a brand owned by Liberace AI (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Liberace AI operates the Chronicle iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Liberace AI, governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
+          66 Days Prep is a brand owned by Uru Technologies LLC (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Uru Technologies LLC operates the 66 Days Prep iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Uru Technologies LLC, governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
         </Text>
         
         <Text fontWeight="bold">
@@ -29,12 +29,12 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>1.1 Description of Services</Text>
           <Text>
-            Liberace AI provides Chronicle, an AI-powered iOS application that assists with job interview preparation and real-time interview support. The app records live interview questions and generates AI responses to help users during interviews. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio processing happens on your device, and Chronicle does not control your device or make decisions on your behalf.
+            Uru Technologies LLC provides 66 Days Prep, an AI-powered iOS application that assists with job interview preparation and real-time interview support. The app records live interview questions and generates AI responses to help users during interviews. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio processing happens on your device, and 66 Days Prep does not control your device or make decisions on your behalf.
           </Text>
           
           <Text fontWeight="bold" mt={3}>1.2 License Grant</Text>
           <Text>
-            Subject to your compliance with these Terms, Liberace AI grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal interview preparation. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
+            Subject to your compliance with these Terms, Uru Technologies LLC grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal interview preparation. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
           </Text>
         </Box>
         
@@ -50,7 +50,7 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>2.2 Payment Terms</Text>
           <Text>
-            All payments and subscriptions are processed through Apple&apos;s App Store. The subscription includes full access to Chronicle features, automatic updates, and customer support. By subscribing to our paid services, you agree to the App Store&apos;s payment terms and authorize Apple to charge your chosen payment method. Subscription management, including cancellation, is handled through your Apple ID account settings.
+            All payments and subscriptions are processed through Apple&apos;s App Store. The subscription includes full access to 66 Days Prep features, automatic updates, and customer support. By subscribing to our paid services, you agree to the App Store&apos;s payment terms and authorize Apple to charge your chosen payment method. Subscription management, including cancellation, is handled through your Apple ID account settings.
           </Text>
         </Box>
         
@@ -76,7 +76,7 @@ export default function TermsPage() {
           </Heading>
           
           <Text>
-            All content generated using our service during your use is owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Liberace AI. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
+            All content generated using our service during your use is owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Uru Technologies LLC. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
           </Text>
         </Box>
         
@@ -87,12 +87,12 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>5.1 Disclaimer of Warranties</Text>
           <Text>
-            THE SERVICES ARE PROVIDED ON AN &quot;AS IS,&quot; &quot;WITH ALL FAULTS,&quot; AND &quot;AS AVAILABLE&quot; BASIS. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, LIBERACE AI DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+            THE SERVICES ARE PROVIDED ON AN &quot;AS IS,&quot; &quot;WITH ALL FAULTS,&quot; AND &quot;AS AVAILABLE&quot; BASIS. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, Uru Technologies LLC DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
           </Text>
           
           <Text fontWeight="bold" mt={3}>5.2 Limitation of Liability</Text>
           <Text>
-            IN NO EVENT SHALL LIBERACE AI, ITS OWNER, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES.
+            IN NO EVENT SHALL Uru Technologies LLC, ITS OWNER, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES.
           </Text>
           
           <Text fontWeight="bold" mt={3}>5.3 No Guarantee of Results</Text>
@@ -100,7 +100,7 @@ export default function TermsPage() {
             WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR EFFECTIVENESS OF INTERVIEW COACHING OR ANY AI-GENERATED CONTENT. YOU ARE RESPONSIBLE FOR YOUR OWN DECISIONS AND OUTCOMES BASED ON THE SERVICE&apos;S RECOMMENDATIONS. WE DO NOT GUARANTEE ANY INTERVIEW RESULTS, AND YOU WAIVE YOUR RIGHT TO SUE FOR ANY CONSEQUENCES OF USING THIS SERVICE.
           </Text>
           <Text mt={2}>
-            Chronicle is a tool to assist users with interview preparation but does not guarantee job offers, interview success, or career advancement. Any decisions based on the service&apos;s insights are solely your responsibility.
+            66 Days Prep is a tool to assist users with interview preparation but does not guarantee job offers, interview success, or career advancement. Any decisions based on the service&apos;s insights are solely your responsibility.
           </Text>
           
           <Text fontWeight="bold" mt={3}>5.4 Arbitration Agreement</Text>
@@ -108,7 +108,7 @@ export default function TermsPage() {
             All claims and disputes arising out of or relating to these Terms or your use of the Services shall be settled by binding arbitration, except for disputes in which either party seeks equitable relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets, or patents.
           </Text>
           <Text mt={2}>
-            ALL CLAIMS AND DISPUTES MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS. ANY CLAIM OR DISPUTE ARISING OUT OF OR RELATED TO THE TERMS OR THE SERVICES IS PERSONAL TO YOU AND LIBERACE AI AND WILL BE RESOLVED SOLELY THROUGH INDIVIDUAL ARBITRATION AND WILL NOT BE BROUGHT AS A CLASS ARBITRATION, CLASS ACTION, OR ANY OTHER TYPE OF REPRESENTATIVE PROCEEDING.
+            ALL CLAIMS AND DISPUTES MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS. ANY CLAIM OR DISPUTE ARISING OUT OF OR RELATED TO THE TERMS OR THE SERVICES IS PERSONAL TO YOU AND Uru Technologies LLC AND WILL BE RESOLVED SOLELY THROUGH INDIVIDUAL ARBITRATION AND WILL NOT BE BROUGHT AS A CLASS ARBITRATION, CLASS ACTION, OR ANY OTHER TYPE OF REPRESENTATIVE PROCEEDING.
           </Text>
         </Box>
         

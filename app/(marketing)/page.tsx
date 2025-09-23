@@ -44,6 +44,13 @@ import {
   FiGlobe,
   FiShield,
   FiHeadphones,
+  FiTarget,
+  FiBook,
+  FiAward,
+  FiDollarSign,
+  FiUsers,
+  FiClock,
+  FiBarChart,
 } from 'react-icons/fi'
 
 import * as React from 'react'
@@ -58,7 +65,6 @@ import {
   HighlightsItem,
   HighlightsTestimonialItem,
 } from '#components/highlights'
-// Removed logo components import as we'll use Image directly
 import { FallInPlace } from '#components/motion/fall-in-place'
 import { Pricing } from '#components/pricing/pricing'
 import { Testimonial, Testimonials } from '#components/testimonials'
@@ -66,11 +72,6 @@ import { Em } from '#components/typography'
 import faq from '#data/faq'
 import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
-
-// export const metadata: Metadata = {
-//  title: 'Saas UI Landingspage',
-//  description: 'Free SaaS landingspage starter kit',
-// }
 
 // Add this function to handle Download button clicks
 const handleDownloadClick = () => {
@@ -123,7 +124,7 @@ const SystemStatus = () => {
         w="8px"
         h="8px"
         borderRadius="full"
-        bg="teal.400"
+        bg="green.400"
         animation="statusPulse 2s infinite"
         alignSelf="center"
         sx={{
@@ -150,7 +151,7 @@ const SystemStatus = () => {
         lineHeight="1"
         alignSelf="center"
       >
-        All Systems Online
+        Prep Sessions Active
       </Text>
     </Box>
   );
@@ -204,10 +205,9 @@ const AppStoreBanner = () => {
       transform={visible ? 'translateY(0)' : 'translateY(100%)'}
       transition="transform 0.3s ease-in-out"
     >
-      {/* Banner content remains the same */}
       <Stack direction="row" spacing="3" align="center" flex="1">
         <Image
-          src="/static/images/chroniclelogo.png"
+          src="/static/images/66dayspreplogo.png"
           width={32}
           height={32}
           alt="App Icon"
@@ -216,14 +216,14 @@ const AppStoreBanner = () => {
         <VStack align="flex-start" spacing="0">
           <HStack spacing="2" align="center">
             <Text color="white" fontWeight="bold" fontSize="sm">
-              Chronicle
+              66 Days Prep
             </Text>
             <Text color="yellow.400" fontSize="xs" fontWeight="medium">
               4.9 / 5 ★
             </Text>
           </HStack>
           <Text color="gray.300" fontSize="xs">
-            Download on the App Store
+            Banking & Consulting Prep
           </Text>
         </VStack>
       </Stack>
@@ -259,7 +259,6 @@ const Home: NextPage = () => {
 
       <FaqSection />
 
-      {/* Add the AppStoreBanner component here */}
       <AppStoreBanner />
 
       {/* Add padding at the bottom of the page to prevent content from being hidden behind the banner on mobile */}
@@ -288,10 +287,9 @@ const HeroSection: React.FC = () => {
             width={{ base: "100%", lg: "50%" }}
             title={
               <FallInPlace>
-                {/* Adjusted font size (smaller) and weight (heavier) */}
                 <Box
                   fontSize={{ base: "36px", sm: "42px", md: "48px", lg: "54px" }}
-                  fontWeight="extrabold"  /* Changed from bold to extrabold */
+                  fontWeight="extrabold"
                   lineHeight="1.1"
                 >
                   <Box as="span" position="relative" display="inline">
@@ -304,45 +302,44 @@ const HeroSection: React.FC = () => {
                       w={4}
                       h={4}
                       borderRadius="full"
-                      bg="teal.400"
+                      bg="blue.500"
                       animation="pulse 2s infinite"
                       sx={{
                         '@keyframes pulse': {
                           '0%': {
                             transform: 'translateY(-50%) scale(0.95)',
-                            boxShadow: '0 0 0 0 rgba(72, 187, 120, 0.7)',
+                            boxShadow: '0 0 0 0 rgba(59, 130, 246, 0.7)',
                           },
                           '70%': {
                             transform: 'translateY(-50%) scale(1.2)',
-                            boxShadow: '0 0 0 18px rgba(72, 187, 120, 0)',
+                            boxShadow: '0 0 0 18px rgba(59, 130, 246, 0)',
                           },
                           '100%': {
                             transform: 'translateY(-50%) scale(0.95)',
-                            boxShadow: '0 0 0 0 rgba(72, 187, 120, 0)',
+                            boxShadow: '0 0 0 0 rgba(59, 130, 246, 0)',
                           },
                         },
                       }}
                     />
-                    Your
+                    Land
                   </Box>
-                  <Br /> Personal AI
-                  <Br /> Database
+                  <Br /> Your Dream
+                  <Br /> Banking Job
                 </Box>
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                <Text fontSize={{ base: "lg", md: "xl" }}>  {/* Slightly reduced */}
-                  Ask <Em>any questions</Em> about your life
-                  <Br />with Chronicle Intelligence<Br />{' '}
-                  Save. Search. Insights.
+                <Text fontSize={{ base: "lg", md: "xl" }}>
+                  Master <Em>case studies</Em>, ace technical interviews,
+                  <Br />and build the skills for <Em>top-tier</Em> banking
+                  <Br />and consulting careers in just 66 days.
                   <Br></Br>
                   <Br></Br>
                 </Text>
               </FallInPlace>
             }
           >
-            {/* Rest of the content remains the same */}
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
                 <Image
@@ -368,7 +365,7 @@ const HeroSection: React.FC = () => {
                   fontWeight="bold"
                   onClick={handleDownloadClick}
                 >
-                  Download
+                  Start Prep
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -393,15 +390,14 @@ const HeroSection: React.FC = () => {
             </FallInPlace>
           </Hero>
 
-
           {/* Image container - above for mobile, right for desktop */}
           <Box
             width={{ base: "100%", lg: "50%" }}
             height={{ base: "400px", md: "500px", lg: "600px" }}
-            position={{ base: "relative", lg: "relative" }}  // Changed to relative for all views
+            position={{ base: "relative", lg: "relative" }}
             display="block"
             order={{ base: 1, lg: 2 }}
-            mb={{ base: 16, sm: 16, md: 12, lg: 0 }}  // Increased bottom margin for mobile views
+            mb={{ base: 16, sm: 16, md: 12, lg: 0 }}
           >
             <FallInPlace delay={1}>
               <Box
@@ -415,7 +411,7 @@ const HeroSection: React.FC = () => {
                   src="/static/screenshots/phone1.png"
                   width={280}
                   height={578}
-                  alt="Chronicle App Screenshot"
+                  alt="66 Days Prep App Screenshot"
                   style={{
                     width: '100%',
                     maxWidth: '300px',
@@ -425,32 +421,6 @@ const HeroSection: React.FC = () => {
                     display: 'block'
                   }}
                 />
-
-                {/* Commented out YouTube video and rounded container */}
-                {/*
-                <Box
-                  borderRadius="48px"
-                  overflow="hidden"
-                >
-                  <iframe
-                    width="280"
-                    height="578"
-                    src="https://www.youtube.com/embed/BvSpz885TN4?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&playlist=BvSpz885TN4&disablekb=1&fs=0"
-                    title="Chronicle Demo"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{
-                      width: '100%',
-                      maxWidth: '280px',
-                      height: 'auto',
-                      aspectRatio: '280/578', // Maintains your video proportions
-                      objectFit: 'contain',
-                      display: 'block'
-                    }}
-                  />
-                </Box>
-                */}
               </Box>
             </FallInPlace>
           </Box>
@@ -469,25 +439,23 @@ const HeroSection: React.FC = () => {
         }}
         features={[
           {
-            title: '1s Responses',
-            icon: FiZap,
-            description: 'Copilot generates responses instantly, ensuring you always have the answer in an interview.',
+            title: 'Expert-Led Content',
+            icon: FiAward,
+            description: 'Learn from professionals who landed offers at Goldman Sachs, McKinsey, BCG, and Bain.',
             iconPosition: 'left',
             delay: 0.6,
           },
           {
-            title: '99% Accuracy',
-            icon: FiHeadphones,
-            description:
-              'Chronicle uses the ranked No. 1 ASR technology for speech recognition.',
+            title: 'Real Case Studies',
+            icon: FiBriefcase,
+            description: 'Practice with actual case studies from top-tier banking and consulting interviews.',
             iconPosition: 'left',
             delay: 0.8,
           },
           {
-            title: '99+ Languages',
-            icon: FiGlobe,
-            description:
-              'Supports over 99 languages, and any accents. Copilot automatically generates responses in your language.',
+            title: 'Structured 66-Day Plan',
+            icon: FiTarget,
+            description: 'Follow our proven methodology that gets results - from basics to advanced interview skills.',
             iconPosition: 'left',
             delay: 1,
           },
@@ -499,16 +467,16 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('#chronicleapp')
+  const { value, onCopy, hasCopied } = useClipboard('#66DaysPrep')
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Accurate. Instant. Tailored.">
+      <HighlightsItem colSpan={[1, null, 2]} title="Master Banking & Consulting Interviews">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Ace any technical or behavioral questions with <Em>our most intelligent Copilot model</Em>.
-            Upload your resume, job details and more for <Em>full Copilot customization</Em>.
-            Choose your desired Copilot answer style, and review all your past interviews in one place.
+            Get ready for <Em>investment banking</Em>, <Em>management consulting</Em>, and <Em>corporate finance</Em> roles 
+            with our comprehensive prep program. Learn case study frameworks, financial modeling, 
+            and behavioral interview techniques from industry experts.
           </Text>
 
           <Flex
@@ -524,15 +492,15 @@ const HighlightsSection = () => {
           >
             <Box>
               <Text color="yellow.400" display="inline">
-                shareyoursuccess
+                landedjob
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                #chronicle
+                #66DaysPrep
               </Text>
             </Box>
             <IconButton
               icon={hasCopied ? <FiCheck /> : <FiCopy />}
-              aria-label="Copy install command"
+              aria-label="Copy hashtag"
               onClick={onCopy}
               variant="ghost"
               ms="4"
@@ -542,49 +510,51 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Voice Recognition">
+      <HighlightsItem title="Industry Insights">
         <Text color="muted" fontSize="lg">
-          Ranked 1st in speech recognition worldwide, Whisper technology is ranked the world&apos;s most accurate AI speech recognition (ASR), capable of detecting almost all languages and accents.
+          Stay updated with the latest trends in banking and consulting. Our content covers market analysis, 
+          industry changes, and what top firms are really looking for in candidates.
         </Text>
       </HighlightsItem>
-      <HighlightsItem title="Full Privacy">
+      <HighlightsItem title="Peer Network">
         <Text color="muted" fontSize="lg">
-          All audio processing happens and stays on-device. No audio is sent to servers. All API calls are anonymous and encrypted to industry standards.
+          Connect with ambitious peers preparing for similar roles. Share experiences, practice together, 
+          and build relationships that last throughout your career.
         </Text>
       </HighlightsItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Get Ahead of Your Peers"
+        title="Target Your Dream Firm"
       >
         <Text color="muted" fontSize="lg">
-          We take care of the trouble of recruiting and interviewing, so you can focus on what really matters: growing your skillset and career.
+          Whether you're aiming for bulge bracket banks or MBB consulting firms, 
+          we have specialized prep tracks for different career paths and firm types.
         </Text>
         <Wrap mt="8">
           {[
-            'consulting',
-            'product management',
-            'data science',
-            'software engineering',
-            'graphic design',
-            'sales',
-            'recruiting',
-            'customer success',
-            'finance',
-            'operations',
-            'legal',
-            'marketing',
-            'public relations',
-            'business development',
-            'human resources',
-            'project management',
-            'strategy',
-            'analytics',
-
+            'Goldman Sachs',
+            'McKinsey & Company',
+            'Boston Consulting Group',
+            'Bain & Company',
+            'J.P. Morgan',
+            'Morgan Stanley',
+            'Blackstone',
+            'KKR',
+            'Deloitte',
+            'PwC',
+            'EY',
+            'KPMG',
+            'Credit Suisse',
+            'Deutsche Bank',
+            'Citi',
+            'Barclays',
+            'UBS',
+            'Oliver Wyman',
           ].map((value) => (
             <Tag
               key={value}
               variant="subtle"
-              colorScheme="yellow"
+              colorScheme="blue"
               rounded="full"
               px="3"
             >
@@ -612,13 +582,13 @@ const FeaturesSection = () => {
             fontSize: { base: '2xl', md: '3xl', lg: '4xl' }
           }}
         >
-          How to Use
+          Your 66-Day Journey
           <Br />
         </Heading>
       }
       description={
         <>
-          Your personal and private AI database
+          From basics to offer - everything you need
           <Br />
         </>
       }
@@ -628,39 +598,39 @@ const FeaturesSection = () => {
       spacing={14}
       sx={{
         ".chakra-simple-grid": {
-          rowGap: "4rem" // Add extra space between rows
+          rowGap: "4rem"
         }
       }}
       features={[
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Save</Text>,
-          icon: FiSmile,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Learn</Text>,
+          icon: FiBook,
           description: (
             <>
               <Br />
-              Save all your recordings, photos, notes, documents, events, reminders and more...
+              Master fundamental concepts, frameworks, and technical skills through expert-curated content and video lessons.
             </>
           ),
           variant: 'inline',
         },
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Search</Text>,
-          icon: FiBriefcase,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Practice</Text>,
+          icon: FiTarget,
           description: (
             <>
               <Br />
-              Chronicle helps you search and retrieve any information about your life
+              Apply your knowledge with real case studies, mock interviews, and personalized feedback from industry professionals.
             </>
           ),
           variant: 'inline',
         },
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Insights</Text>,
-          icon: FiBox,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Succeed</Text>,
+          icon: FiTrendingUp,
           description: (
             <>
               <Br />
-              Got a question about your life? Chronicle Intelligence searches your AI database and give you answers
+              Land your dream job with confidence. Track your progress and get ready for interviews at top-tier firms.
             </>
           ),
           variant: 'inline',
@@ -696,7 +666,6 @@ const TestimonialsSection = () => {
                 key={i}
                 {...t}
                 height="100%"
-                // These props ensure consistent heights within the grid
                 display="flex"
                 flexDirection="column"
                 justifyContent="space-between"

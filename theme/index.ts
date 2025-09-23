@@ -4,19 +4,19 @@ import { theme as baseTheme } from '@saas-ui/react'
 import components from './components'
 import { fontSizes } from './foundations/typography'
 
-// Define your custom colors
+// Define your custom ivy green colors
 const colors = {
   primary: {
-    50: '#e6fffa',
-    100: '#b2f5ea',
-    200: '#81e6d9',
-    300: '#4fd1c7',
-    400: '#38b2ac',
-    500: '#319795', // Main teal color
-    600: '#2c7a7b',
-    700: '#285e61',
-    800: '#234e52',
-    900: '#1d4044',
+    50: '#f0f9f8',
+    100: '#d4f0ec',
+    200: '#a9e2d8',
+    300: '#7dd3c4',
+    400: '#4eb89f',
+    500: '#1f8567', // Rich, deep ivy green
+    600: '#1b7058',
+    700: '#175b49',
+    800: '#13463a',
+    900: '#0f312b',
   },
   // You can keep or modify other colors as needed
 }
@@ -29,14 +29,14 @@ const customComponents = {
     variants: {
       primary: {
         bg: 'primary.500',
-        color: 'white', // Changed to white for better contrast with teal
+        color: 'white', // White text for good contrast with ivy green
         _hover: {
           bg: 'primary.600',
-          color: 'white', // Maintain white text on hover
+          color: 'white',
         },
         _active: {
           bg: 'primary.700',
-          color: 'white', // Maintain white text when active
+          color: 'white',
         },
       },
       // You can also customize other button variants here if needed
