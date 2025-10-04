@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 const faq = {
-  title: 'Frequently asked questions',
+  title: 'Frequently Asked Questions',
   // description: '',
   items: [
     {
@@ -25,7 +25,7 @@ const faq = {
       a: '66 Days Prep works on iPhones and iPads running iOS 17 or later. It supports most iPhones from 2018 and later, and iPads from 2020 and later. You can download it directly from the App Store and start your free trial right away.',
     },
     {
-      q: 'I love this app! Can I request new features?',
+      q: 'I Love this app! Can I request new features?',
       a: 'Yes. We’re always improving 66 Days Prep and love hearing ideas from our users. If there’s a feature, tool, or topic you want to see added, you can send suggestions directly through the app. Your feedback helps shape future updates and make the experience even better.',
     },
   ],
