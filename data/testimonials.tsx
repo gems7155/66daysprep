@@ -2,68 +2,68 @@ export default {
   title: '#66 Days Prepapp: why users love it',
   items: [
     {
-      name: 'jordan.tech',
+      name: 'alex_mbb',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          I dumped all my notes, docs, and photos in here and now I can actually find stuff. AI search is insane🔥.
+          Prepped for my McKinsey case interviews in record time. The AI coach knew exactly what I needed to work on🔥.
         </>
       ),
     },
     {
-      name: 'Anonymous',
+      name: 'priya_finance',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          No more digging through folders, I just ask 66 Days Prep and it pulls up what I need.<br /><br />It lets me store all my important files and key moments in one place. Can't recommend it enough.
+          No more generic prep materials. 66 Days gave me personalized practice cases that matched my target firms.<br /><br />Landed offers at two top consulting firms. This app was a game-changer.
         </>
       ),
     },
     {
-      name: 'cliff_consulting',
+      name: 'marcus_ib',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          Amazing for keeping track of everything from school and work. Found my old notes and documents in seconds.
+          Amazing for banking interviews. The AI picked up on my weak spots in valuation and drilled me until I had it down cold.
         </>
       ),
     },
     {
-      name: 'RosieW_92',
+      name: 'sarah_consulting',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          Honestly, it works better than expected. You can ask it about an event 10 years ago and it will find it.<br /><br />Thank you for creating such an amazing app!
+          Honestly, it works better than my $2000 interview coach. Real-time feedback on my case responses was incredible.<br /><br />Thank you for creating such an amazing app!
         </>
       ),
     },
     {
-      name: 'Anonymous',
-      description: (
-        <span className="stars">★★★★☆</span>
-      ),
-      children: (
-        <>
-          Love how it understands my voice notes even with my accent. Super useful.
-        </>
-      ),
-    },
-    {
-      name: 'sophie_d',
+      name: 'david_analyst',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          66 Days Prep remembers everything so I don’t have to. I don't have to organize anything again, I just dump it into one app.
+          Love how it adapts to my learning style. The practice cases get progressively harder as I improve.
+        </>
+      ),
+    },
+    {
+      name: 'emma_mba',
+      description: (
+        <span className="stars">★★★★★</span>
+      ),
+      children: (
+        <>
+          66 Days tracked my progress across all interview types - case, fit, technical. Finally felt confident walking into Goldman.
         </>
       ),
     },
