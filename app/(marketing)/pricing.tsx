@@ -67,7 +67,7 @@ export default {
       id: 'yearly',
       title: 'Yearly',
       description: 'Best Value',
-      price: '$39.99 / year',
+      price: '$49.99 / year',
       features: [
         {
           title: 'AI-powered coach for personalized feedback',
