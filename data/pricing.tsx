@@ -29,7 +29,7 @@ export default {
       id: 'monthly',
       title: 'Monthly',
       description: 'Popular',
-      price: '$14.99 / month',
+      price: '$15.99 / month',
       isRecommended: true,
       features: [
         {
