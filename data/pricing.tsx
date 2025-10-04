@@ -7,9 +7,9 @@ export default {
   plans: [
     {
       id: 'free',
-      title: '7-Day 66daysprep.com Trial',
+      title: '7-Day Trial',
       description: 'Try full features for free',
-      price: '66daysprep.com',
+      price: 'Free',
       features: [
         {
           title: 'Explore all drills, tools, and the AI coach with no limits',

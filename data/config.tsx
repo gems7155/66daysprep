@@ -9,7 +9,7 @@ const siteConfig = {
   logo: Logo,
   seo: {
     title: '66 Days Prep',
-    description: '66 Days Prep is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
+    description: '66 Days Prep is the leading AI-powered coach and daily habit tracking tool that helps you stay consistent, build interview skills, and prepare for careers in banking and consulting in just 66 days.',
   } as NextSeoProps,
   termsUrl: '/terms',
   privacyUrl: '/privacy',
@@ -51,7 +51,7 @@ const siteConfig = {
     ),
     links: [
       {
-        href: 'mailto:Support@LiberaceAI.com',
+        href: 'mailto:Support@sellwithuru.com',
         label: 'Contact',
       },
       {

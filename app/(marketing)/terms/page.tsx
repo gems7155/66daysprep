@@ -118,7 +118,7 @@ export default function TermsPage() {
           </Heading>
           
           <Text>
-            These Terms may be updated periodically. Continued use of the service constitutes acceptance of any changes. If you have any questions about these Terms, please contact us at Support@LiberaceAI.com.
+            These Terms may be updated periodically. Continued use of the service constitutes acceptance of any changes. If you have any questions about these Terms, please contact us at Support@sellwithuru.com.
           </Text>
         </Box>
         

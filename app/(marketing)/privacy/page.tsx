@@ -96,7 +96,7 @@ return (
  Contact Information
 </Heading>
 <Text>
- If you have any questions about our Privacy Policy, please contact us at Support@LiberaceAI.com.
+ If you have any questions about our Privacy Policy, please contact us at Support@sellwithuru.com.
 </Text>
 </Box>
 <Text fontStyle="italic" mt={4} color="gray.600">
