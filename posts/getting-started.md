@@ -201,4 +201,4 @@ Thousands of professionals have already landed their dream jobs with 66 Days Pre
 
 ---
 
-*Questions about getting started? Our support team is here to help at [support@liberaceai.com](mailto:support@liberaceai.com). Join the community of professionals who chose to interview smarter, not harder.*
+*Questions about getting started? Our support team is here to help at [support@66daysprep.com](mailto:support@66daysprep.com). Join the community of professionals who chose to interview smarter, not harder.*

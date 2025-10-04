@@ -3,7 +3,7 @@ import { HStack, Text } from '@chakra-ui/react'
 export default {
   title: 'Pricing',
   description:
-    '66 Days Prep is FREE to use',
+    'Simple, Open Pricing',
   plans: [
     {
       id: 'free',
@@ -26,10 +26,10 @@ export default {
       },
     },
     {
-      id: 'weekly',
-      title: 'Weekly',
+      id: 'monthly',
+      title: 'Monthly',
       description: 'Popular',
-      price: '$9.99 / month',
+      price: '$14.99 / month',
       isRecommended: true,
       features: [
         {
@@ -67,7 +67,7 @@ export default {
       id: 'yearly',
       title: 'Yearly',
       description: 'Best Value',
-      price: '$4.99 / month',
+      price: '$39.99 / year',
       features: [
         {
           title: '1,000 Copilot Use Weekly',

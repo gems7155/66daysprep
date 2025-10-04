@@ -274,6 +274,6 @@ Your next interview could change your life. **Don't leave it to chance with risk
 
 🚀 **[Download 66 Days Prep](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** - Your undetectable AI interview copilot
 
-📧 **Questions?** Contact us at [support@liberaceai.com](mailto:support@liberaceai.com)
+📧 **Questions?** Contact us at [support@66daysprep.com](mailto:support@66daysprep.com)
 
 *Join thousands of professionals who chose the safer, smarter approach to AI-powered interview success.*

@@ -36,10 +36,6 @@ const siteConfig = {
         label: 'Help',
       },
       {
-        label: 'Blog',
-        href: '/blog',
-      },
-      {
         label: 'Download',
         href: '/download/hero',  // Changed from direct App Store URL
         variant: 'primary',
@@ -50,7 +46,7 @@ const siteConfig = {
     copyright: (
       <>
         Developed by{' '}
-        <Link href="https://www.liberaceai.com">Uru Technologies LLC</Link> © 2025 • All Rights Reserved
+        <Link href="https://www.66daysprep.com">Uru Technologies LLC</Link> © 2025 • All Rights Reserved
       </>
     ),
     links: [
@@ -67,19 +63,19 @@ const siteConfig = {
         label: 'Privacy Policy',
       },
       {
-        href: 'https://linkedin.com/company/interview-pilot',
+        href: 'https://linkedin.com/',
         label: <FaLinkedinIn size="18" />,
       },
       {
-        href: 'https://x.com/interview_pilot',
+        href: 'https://x.com/',
         label: <FaTwitter size="18" />,
       },
       {
-        href: 'https://www.tiktok.com/@interview_pilot',
+        href: 'https://www.tiktok.com/',
         label: <FaTiktok size="18" />,
       },
       {
-        href: 'https://www.instagram.com/interview_pilot?igsh=MWlxdXBraDA3MTBhcQ%3D%3D&utm_source=qr',
+        href: 'https://www.instagram.com/',
         label: <FaInstagram size="18" />,
       },
     ],
