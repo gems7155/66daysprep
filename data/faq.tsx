@@ -5,28 +5,28 @@ const faq = {
   // description: '',
   items: [
     {
-      q: 'Is 66 Days Prep free to use?',
-      a: 'Yes! 66 Days Prep is free to use with full access to all features!',
+      q: 'What is 66 Days Prep?',
+      a: '66 Days Prep is a daily training app made for banking and consulting prep. It helps you build strong study habits with short daily drills in math, cases, Excel, and behavioral questions. The app is designed to make your practice routine structured, consistent, and motivating.',
     },
     {
-      q: 'Is 66 Days Prep private and safe to use?',
-      a: 'Absolutely, privacy and security is of the highest priority. 66 Days Prep is built to industry encryption standards and never stores or collects your data.',
+      q: 'How much does it cost?',
+      a: '66 Days Prep gives full access for $15.99 per month or $39.99 per year. Every new user gets a 7-day free trial to explore all features before subscribing. There are no ads or hidden fees.',
     },
     {
-      q: 'What devices can I use 66 Days Prep on?',
-      a: '66 Days Prep is designed for most iOS devices, supporting most iPhones from 2018 and later and iPads from 2020 and later. For a list of compatible devices see below. \n\n66 Days Prep requires iOS 26 and above. The best way to check compatibility is to simply download and try the app for free!\n\n Compatible devices (newer than below are supported):\n- iPhone XR/XS and later (A12 with Neural Engine)\n- iPad 8th Gen, iPad mini 5, iPad Pro 3rd Gen and later (A12 with Neural Engine)',
+      q: 'Why Use 66 Days Prep?',
+      a: '66 Days Prep keeps you accountable through a visual progress heatmap and 66-day streak tracker. It adapts to your learning pace and shows where you improve most. The app helps you stay focused and consistent until interview day.',
     },
     {
-      q: 'This is amazing! How does 66 Days Prep Intelligence work?',
-      a: '66 Days Prep is designed to be the smartest personal AI agent and database. 66 Days Prep uses complex algorithms, deep neural networks to intelligently predict and analyze large amounts of information.\n\n66 Days Prep Intelligence is capable of deep semantic search, AI-powered search and more advanced information processing to ensure you get the most accurate results.',
+      q: 'What Tools Do 66 Days Prep Have?',
+      a: 'Inside the app, you’ll find a Pomodoro timer, a screen blocker for focus, quick practice drills, an AI resume checker, and a complete Excel shortcut and formula guide. You can also explore a resource hub filled with interview frameworks and prep materials for both banking and consulting.',
     },
     {
-      q: 'Can I use 66 Days Prep across all my devices?',
-      a: 'Yes absolutely! Your data is automatically saved and synced across enabled iCloud devices.\n\nAll your data is stored locally or securely encrypted with iCloud.',
+      q: 'What Devices Can I use it on?',
+      a: '66 Days Prep works on iPhones and iPads running iOS 17 or later. It supports most iPhones from 2018 and later, and iPads from 2020 and later. You can download it directly from the App Store and start your free trial right away.',
     },
     {
       q: 'I love this app! Can I request new features?',
-      a: 'Yes! We have received many requests for new features, and would love to hear what ideas or needs you have! Our team is constantly in search of top new features to provide our users with the best experience.',
+      a: 'Yes. We’re always improving 66 Days Prep and love hearing ideas from our users. If there’s a feature, tool, or topic you want to see added, you can send suggestions directly through the app. Your feedback helps shape future updates and make the experience even better.',
     },
   ],
 }
