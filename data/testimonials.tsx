@@ -8,7 +8,7 @@ export default {
       ),
       children: (
         <>
-          Prepped for my McKinsey case interviews in record time. The AI coach knew exactly what I needed to work on🔥.
+          Prepped for my McKinsey case interviews in record time. The AI coach knew exactly what I needed to work on.
         </>
       ),
     },
