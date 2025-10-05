@@ -151,7 +151,7 @@ const SystemStatus = () => {
         lineHeight="1"
         alignSelf="center"
       >
-        Prep Sessions Active
+        All Systems Online
       </Text>
     </Box>
   );
@@ -302,7 +302,7 @@ const HeroSection: React.FC = () => {
                       w={4}
                       h={4}
                       borderRadius="full"
-                      bg="blue.500"
+                      bg="teal.500"
                       animation="pulse 2s infinite"
                       sx={{
                         '@keyframes pulse': {
@@ -321,10 +321,9 @@ const HeroSection: React.FC = () => {
                         },
                       }}
                     />
-                    Land
+                    Your AI
                   </Box>
-                  <Br /> Your Dream
-                  <Br /> Banking Job
+                  <Br /> Career Coach
                 </Box>
               </FallInPlace>
             }
@@ -516,10 +515,9 @@ const HighlightsSection = () => {
           industry changes, and what top firms are really looking for in candidates.
         </Text>
       </HighlightsItem>
-      <HighlightsItem title="Peer Network">
+      <HighlightsItem title="Daily Drills">
         <Text color="muted" fontSize="lg">
-          Connect with ambitious peers preparing for similar roles. Share experiences, practice together, 
-          and build relationships that last throughout your career.
+          Timed drills covering market sizing, profitability, frameworks, and mental math designed to strengthen analytical thinking and quantitative reasoning with model answers that build both speed and accuracy tailored to your level.
         </Text>
       </HighlightsItem>
       <HighlightsItem

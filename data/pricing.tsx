@@ -7,7 +7,7 @@ export default {
   plans: [
     {
       id: 'free',
-      title: '7-Day Trial',
+      title: '7-Day Free Trial',
       description: 'Try full features for free',
       price: 'Free',
       features: [

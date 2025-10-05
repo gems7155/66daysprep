@@ -1,5 +1,5 @@
 export default {
-  title: '#66 Days Prepapp: why users love it',
+  title: 'Why Users Love 66 Days Prep',
   items: [
     {
       name: 'alex_mbb',
