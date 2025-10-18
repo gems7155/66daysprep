@@ -56,26 +56,22 @@ const siteConfig = {
       },
       {
         href: '/terms',
-        label: 'Terms & Services',
+        label: 'Terms of Service',
       },
       {
         href: '/privacy',
         label: 'Privacy Policy',
       },
       {
-        href: 'https://linkedin.com/',
+        href: 'https://linkedin.com/66daysprep',
         label: <FaLinkedinIn size="18" />,
       },
       {
-        href: 'https://x.com/',
-        label: <FaTwitter size="18" />,
-      },
-      {
-        href: 'https://www.tiktok.com/',
+        href: 'https://www.tiktok.com/66daysprep',
         label: <FaTiktok size="18" />,
       },
       {
-        href: 'https://www.instagram.com/',
+        href: 'https://www.instagram.com/66daysprep',
         label: <FaInstagram size="18" />,
       },
     ],
