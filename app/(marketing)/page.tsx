@@ -585,7 +585,7 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          From basics to offer - everything you need
+          Build elite career habits in 66 days
           <Br />
         </>
       }
