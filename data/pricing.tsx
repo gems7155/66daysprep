@@ -5,6 +5,7 @@ export default {
   description:
     'Simple, Open Pricing',
   plans: [
+    /*
     {
       id: 'free',
       title: '7-Day Free Trial',
@@ -25,6 +26,7 @@ export default {
         href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
       },
     },
+    */
     {
       id: 'monthly',
       title: 'Monthly',

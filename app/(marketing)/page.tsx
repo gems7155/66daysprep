@@ -542,7 +542,6 @@ const HighlightsSection = () => {
             'PwC',
             'EY',
             'KPMG',
-            'Credit Suisse',
             'Deutsche Bank',
             'Citi',
             'Barclays',

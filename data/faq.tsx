@@ -10,7 +10,7 @@ const faq = {
     },
     {
       q: 'How Much Does it Cost?',
-      a: '66 Days Prep gives full access for $15.99 per month or $49.99 per year. Every new user gets a 7-day free trial to explore all features before subscribing. There are no ads or hidden fees.',
+      a: '66 Days Prep gives full access for $15.99 per month or $49.99 per year.',
     },
     {
       q: 'Why Use 66 Days Prep?',
