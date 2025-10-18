@@ -197,7 +197,7 @@ We're building the interview assistant you deserve. One that knows you, protects
 
 Thousands of professionals have already landed their dream jobs with 66 Days Prep. **Your next opportunity shouldn't be left to chance.**
 
-🚀 **[Download 66 Days Prep](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** and start your free trial today.
+🚀 **[Download 66 Days Prep](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6752681422)** and start your free trial today.
 
 ---
 

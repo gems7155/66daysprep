@@ -272,7 +272,7 @@ Your next interview could change your life. **Don't leave it to chance with risk
 
 **Ready to interview smarter and safer?** 
 
-🚀 **[Download 66 Days Prep](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** - Your undetectable AI interview copilot
+🚀 **[Download 66 Days Prep](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6752681422)** - Your undetectable AI interview copilot
 
 📧 **Questions?** Contact us at [support@66daysprep.com](mailto:support@66daysprep.com)
 

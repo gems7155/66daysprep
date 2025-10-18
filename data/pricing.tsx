@@ -23,7 +23,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6752681422',
       },
     },
     */
@@ -62,7 +62,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6752681422',
       },
     },
     {
@@ -99,7 +99,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6752681422',
       },
     },
   ],
