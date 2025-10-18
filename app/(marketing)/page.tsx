@@ -323,7 +323,7 @@ const HeroSection: React.FC = () => {
                     />
                     Your AI
                   </Box>
-                  <Br /> Career Coach
+                  <Br /> Career Tracker
                 </Box>
               </FallInPlace>
             }
@@ -343,13 +343,13 @@ const HeroSection: React.FC = () => {
               <HStack pt="4" pb="12" spacing="8">
                 <Image
                   src="/static/images/openailogo.png"
-                  width={95}
+                  width={135}
                   height={20}
                   alt="OpenAI Logo"
                 />
                 <Image
                   src="/static/images/whisperlogo.png"
-                  width={105}
+                  width={145}
                   height={20}
                   alt="Whisper Logo"
                 />
