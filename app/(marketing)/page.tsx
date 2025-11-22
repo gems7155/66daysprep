@@ -408,7 +408,7 @@ const HeroSection: React.FC = () => {
                 alignItems="center"
               >
                 <Image
-                  src="/static/screenshots/phone3.png"
+                  src="/static/screenshots/phone4.png"
                   width={280}
                   height={578}
                   alt="66 Days Prep App Screenshot"
