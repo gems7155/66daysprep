@@ -1,6 +1,23 @@
 import { ColorModeScript, theme } from '@chakra-ui/react'
+import { Metadata } from 'next'
 
 import { Provider } from './provider'
+
+export const metadata: Metadata = {
+  title: '66 Days Prep - AI-Powered Career Coach',
+  description: '66 Days Prep is the leading AI-powered career coach and daily tracking tool that helps you stay consistent, build interview skills, and prepare for careers in banking and consulting in just 66 days.',
+  openGraph: {
+    title: '66 Days Prep - AI-Powered Career Coach',
+    description: '66 Days Prep is the leading AI-powered career coach and daily tracking tool that helps you stay consistent, build interview skills, and prepare for careers in banking and consulting in just 66 days.',
+    siteName: '66 Days Prep',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '66 Days Prep - AI-Powered Career Coach',
+    description: '66 Days Prep is the leading AI-powered career coach and daily tracking tool that helps you stay consistent, build interview skills, and prepare for careers in banking and consulting in just 66 days.',
+  },
+}
 
 export default function Layout(props: { children: React.ReactNode }) {
   const colorMode = theme.config.initialColorMode

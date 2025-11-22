@@ -236,7 +236,7 @@ const AppStoreBanner = () => {
         color="black"
         fontWeight="bold"
         _hover={{ bg: "gray.100" }}
-        borderRadius="full"
+        borderRadius="md"
       >
         Try It Now
       </ButtonLink>
