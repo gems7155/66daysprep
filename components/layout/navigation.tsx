@@ -92,7 +92,6 @@ const Navigation: React.FC<NavigationProps> = ({
             <NavLink
               display={['none', null, 'block']}
               href={downloadButton.href || `/#${downloadButton.id}`}
-              color="black"  // Add this to override the variant's text color
               isActive={
                 !!(
                   (downloadButton.id && activeId === downloadButton.id) ||
@@ -100,6 +99,11 @@ const Navigation: React.FC<NavigationProps> = ({
                 )
               }
               {...downloadButton}
+              bg="black"
+              color="white"
+              borderRadius="full"
+              _hover={{ bg: "gray.800" }}
+              variant={undefined}
             >
               {downloadButton.label}
             </NavLink>
@@ -127,6 +131,9 @@ const Navigation: React.FC<NavigationProps> = ({
   return (
     <HStack spacing="2" flexShrink={0}>
       {siteConfig.header.links.map(({ href, id, ...props }, i) => {
+        // Check if this is the last item (Download button)
+        const isDownloadButton = i === siteConfig.header.links.length - 1
+
         return (
           <NavLink
             display={['none', null, 'block']}
@@ -139,6 +146,11 @@ const Navigation: React.FC<NavigationProps> = ({
               )
             }
             {...props}
+            borderRadius={isDownloadButton ? "full" : undefined}
+            bg={isDownloadButton ? "black" : undefined}
+            color={isDownloadButton ? "white" : undefined}
+            _hover={isDownloadButton ? { bg: "gray.800" } : undefined}
+            variant={isDownloadButton ? undefined : props.variant}
           >
             {props.label}
           </NavLink>

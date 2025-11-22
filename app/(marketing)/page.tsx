@@ -230,10 +230,13 @@ const AppStoreBanner = () => {
 
       <ButtonLink
         href="/download/mobile"
-        colorScheme="primary"
+        colorScheme="blackAlpha"
+        bg="white"
         size="sm"
         color="black"
         fontWeight="bold"
+        _hover={{ bg: "gray.100" }}
+        borderRadius="full"
       >
         Try It Now
       </ButtonLink>
@@ -358,12 +361,15 @@ const HeroSection: React.FC = () => {
 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink
-                  colorScheme="primary"
-                  color="black"
+                  colorScheme="blackAlpha"
+                  bg="black"
+                  color="white"
                   size="lg"
                   href="/download/hero"
                   fontWeight="bold"
                   onClick={handleDownloadClick}
+                  _hover={{ bg: "gray.800" }}
+                  borderRadius="full"
                 >
                   Start Prep
                 </ButtonLink>
@@ -371,6 +377,7 @@ const HeroSection: React.FC = () => {
                   size="lg"
                   href="#features"
                   variant="outline"
+                  borderRadius="full"
                   rightIcon={
                     <Icon
                       as={FiArrowRight}
@@ -408,7 +415,7 @@ const HeroSection: React.FC = () => {
                 alignItems="center"
               >
                 <Image
-                  src="/static/screenshots/phone4.png"
+                  src="/static/screenshots/phone5.png"
                   width={280}
                   height={578}
                   alt="66 Days Prep App Screenshot"
