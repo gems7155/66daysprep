@@ -58,7 +58,7 @@ import * as React from 'react'
 import { ButtonLink } from '#components/button-link/button-link'
 import { Faq } from '#components/faq'
 import { Features } from '#components/features'
-import { BackgroundGradient } from '#components/gradients/background-gradient'
+import { PremiumBackground } from '#components/gradients/premium-background'
 import { Hero } from '#components/hero'
 import {
   Highlights,
@@ -223,7 +223,7 @@ const AppStoreBanner = () => {
             </Text>
           </HStack>
           <Text color="gray.300" fontSize="xs">
-            Banking & Consulting Prep
+            Download on the App Store
           </Text>
         </VStack>
       </Stack>
@@ -235,7 +235,7 @@ const AppStoreBanner = () => {
         color="black"
         fontWeight="bold"
       >
-        Free
+        Try It Now
       </ButtonLink>
 
     </Box>
@@ -244,7 +244,9 @@ const AppStoreBanner = () => {
 
 const Home: NextPage = () => {
   return (
-    <Box>
+    <Box position="relative">
+      <PremiumBackground />
+
       <SystemStatus />
 
       <HeroSection />
@@ -270,7 +272,6 @@ const Home: NextPage = () => {
 const HeroSection: React.FC = () => {
   return (
     <Box position="relative" overflow="hidden">
-      <BackgroundGradient height="100%" zIndex="-1" />
       <Container maxW="container.xl" pt={{ base: 36, lg: 48 }} pb="0">
         <Stack
           direction={{ base: 'column', lg: 'row' }}
@@ -407,7 +408,7 @@ const HeroSection: React.FC = () => {
                 alignItems="center"
               >
                 <Image
-                  src="/static/screenshots/phone1.png"
+                  src="/static/screenshots/phone3.png"
                   width={280}
                   height={578}
                   alt="66 Days Prep App Screenshot"
@@ -466,15 +467,15 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('#66DaysPrep')
+  const { onCopy, hasCopied } = useClipboard('#66DaysPrep')
 
   return (
     <Highlights>
       <HighlightsItem colSpan={[1, null, 2]} title="Master Banking & Consulting Interviews">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get ready for <Em>investment banking</Em>, <Em>management consulting</Em>, and <Em>corporate finance</Em> roles 
-            with our comprehensive prep program. Learn case study frameworks, financial modeling, 
+            Get ready for <Em>investment banking</Em>, <Em>management consulting</Em>, and <Em>corporate finance</Em> roles
+            with our comprehensive prep program. Learn case study frameworks, financial modeling,
             and behavioral interview techniques from industry experts.
           </Text>
 
@@ -511,7 +512,7 @@ const HighlightsSection = () => {
       </HighlightsItem>
       <HighlightsItem title="Industry Insights">
         <Text color="muted" fontSize="lg">
-          Stay updated with the latest trends in banking and consulting. Our content covers market analysis, 
+          Stay updated with the latest trends in banking and consulting. Our content covers market analysis,
           industry changes, and what top firms are really looking for in candidates.
         </Text>
       </HighlightsItem>
@@ -525,7 +526,7 @@ const HighlightsSection = () => {
         title="Target Your Dream Firm"
       >
         <Text color="muted" fontSize="lg">
-          Whether you&apos;re aiming for bulge bracket banks or MBB consulting firms, 
+          Whether you&apos;re aiming for bulge bracket banks or MBB consulting firms,
           we have specialized prep tracks for different career paths and firm types.
         </Text>
         <Wrap mt="8">
@@ -572,7 +573,7 @@ const FeaturesSection = () => {
         <Heading
           lineHeight="short"
           fontSize={['2xl', null, '4xl']}
-          textAlign="left"
+          textAlign="center"
           as="p"
           className="main-title"
           sx={{
@@ -584,18 +585,18 @@ const FeaturesSection = () => {
         </Heading>
       }
       description={
-        <>
+        <Box textAlign="center">
           Build elite career habits in 66 days
           <Br />
-        </>
+        </Box>
       }
-      align="left"
+      align="center"
       columns={[1, 2, 3]}
       iconSize={4}
-      spacing={14}
+      spacing={4}
       sx={{
         ".chakra-simple-grid": {
-          rowGap: "4rem"
+          rowGap: "1rem"
         }
       }}
       features={[

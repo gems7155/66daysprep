@@ -6,10 +6,11 @@ const SectionTitle = {
     wrapper: {
       spacing: [2, null, 3],
       mb: '10',
-      textAlign: ['left', null, 'center'],
+      textAlign: 'center',
     },
     title: {
       width: '100%',
+      textAlign: 'center',
     },
     description: {
       fontWeight: 'normal',

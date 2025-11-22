@@ -16,7 +16,6 @@ import {
   ButtonLink,
   ButtonLinkProps,
 } from '#components/button-link/button-link'
-import { BackgroundGradient } from '#components/gradients/background-gradient'
 import { Section, SectionProps, SectionTitle } from '#components/section'
 
 export interface PricingPlan {
@@ -38,7 +37,6 @@ export const Pricing: React.FC<PricingProps> = (props) => {
   const { children, plans, title, description, ...rest } = props
   return (
     <Section id="pricing" pos="relative" {...rest}>
-      <BackgroundGradient height="100%" />
       <Box zIndex="2" pos="relative">
         <SectionTitle title={title} description={description}></SectionTitle>
         <SimpleGrid columns={[1, null, 2]} spacing={16}>
